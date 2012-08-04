@@ -1,8 +1,15 @@
 <resources>
 
+<<<<<<< HEAD
     <string name="app_name">telefono</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_telefono">telefono</string>
+=======
+    <string name="app_name">SMSGratis</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">SMSGratis</string>
+>>>>>>> 0abe272982f402508d61d098a121809651930be2
 
 </resources>

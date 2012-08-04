@@ -1,10 +1,18 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.example.telefono"
+=======
+    package="com.example.smsgratis"
+>>>>>>> 0abe272982f402508d61d098a121809651930be2
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
+<<<<<<< HEAD
         android:minSdkVersion="1"
+=======
+        android:minSdkVersion="8"
+>>>>>>> 0abe272982f402508d61d098a121809651930be2
         android:targetSdkVersion="15" />
 
     <application
@@ -12,11 +20,21 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
+<<<<<<< HEAD
             android:name=".telefono"
             android:label="@string/title_activity_telefono" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="axti" />
+=======
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+>>>>>>> 0abe272982f402508d61d098a121809651930be2
         </activity>
     </application>
 
